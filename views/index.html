@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Node SMS Texting</title>
+    <!-- in the fucher recomend to include CDN -->
+</head>
+<body>
+    
+        <input type="text" id="first_name" placeholder="First Name" required>
+        <input type="text" id="last_name" placeholder="Last Name" required>
+        <input type="tel" id="phone_number" placeholder="Phone Number" required>
+        <input type="text" id="text_input" placeholder="Text Input" required>
+        <input type="button" id="btn_sms" value="Send Text">
+        <p class="response"></p>
+   
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
